@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/jamadeu/.nvm/versions/node/v20.9.0/bin/node /Users/jamadeu/.yarn/releases/yarn-1.22.18.cjs add typescript @types/node tsx tsup -D
+
+PATH: 
+  /Users/jamadeu/.amplify/bin:/Users/jamadeu/Library/pnpm:/Users/jamadeu/.nvm/versions/node/v20.9.0/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/go/bin:/Users/jamadeu/.cargo/bin:/Users/jamadeu/Library/Android/sdk/emulator:/Users/jamadeu/Library/Android/sdk/platform-tools:/Users/jamadeu/Library/Android/sdk/emulator:/Users/jamadeu/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  20.9.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+      at internalConnectMultiple (node:net:1177:5)
+
+npm manifest: 
+  {
+    "name": "menppy-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

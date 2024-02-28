@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  menppy-api-pg:
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USERNAME=menppy
+      - POSTGRESQL_PASSWORD=menppy
+      - POSTGRESQL_DATABASE=menppy
+  menppy-api-pgadmin:
+    image: dpage/pgadmin4
+    ports:
+      - 82:80
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=menppy@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=menppy
